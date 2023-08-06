@@ -8,7 +8,7 @@ woff2圧縮について
 ---
 
 Web Open Font Format (WOFF)は、ウェブページで使用するためのフォント形式です。WOFF2は、WOFFの改良版で圧縮率が高くなっています。詳細は、[Web Open Font Format (WOFF) 1.0](https://www.w3.org/TR/WOFF/)と[Web Open Font Format 2.0](https://www.w3.org/TR/WOFF2/)をご覧ください。
-woff2圧縮は、[Google Fonts](https://fonts.google.com/)の[Google Fonts Optimization](https://googlefonts.github.io/fontbakery/gf-docs/optimize/)を利用して行いました。詳細は、[Google Fonts Optimization](https://googlefonts.github.io/fontbakery/gf-docs/optimize/)をご覧ください。
+woff2圧縮は、[Google Fonts](https://fonts.google.com/)の[woff2](https://github.com/google/woff2)を利用して行いました。
 
 ライセンス
  ---
