@@ -7,21 +7,23 @@
     @font-face {
       font-family: 'mjm';
       src: url('mjm.woff2') format('woff2');
-      font-weight: normal;
-      font-style: normal;
     }
 
     body {
-      font-family: 'mjm', sans-serif;
+      font-family: mjm, sans-serif;
       font-size: 24px;
       line-height: 1.6;
+    }
+    .mjm {
+      font-family: mjm;
+      font-size: 32px;
     }
   </style>
 </head>
 <body>
   <p>日本語の名前では非常に多くの漢字が使われます。</p>
   <p>例えば渡辺さんの「辺」だけでも、以下のような種類があり、官報外字には140文字もの「辺」が収録されています。</p>
-  <h1>辺辺󠄂邉邉󠄙邉󠄛邉󠄟邉󠄚邉󠄜邉󠄝邉󠄗邊󠄏邊邊󠄎邊󠄍邊󠄌邊󠄋邊󠄊邊󠄐邊󠄒</h1>
+  <div class="mjm">辺辺󠄂邉邉󠄙邉󠄛邉󠄟邉󠄚邉󠄜邉󠄝邉󠄗邊󠄏邊邊󠄎邊󠄍邊󠄌邊󠄋邊󠄊邊󠄐邊󠄒</div>
   <p>文字情報基盤を使うことで、こうした文字を正しく扱うことができます。</p>
   <p>mjm-woff2を使えば、後からフォントをインストールできないスマートフォンやテレビからでも、これらの文字をWeb上で正しく表示できます。</p>
 </body>
